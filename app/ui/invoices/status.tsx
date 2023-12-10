@@ -4,6 +4,14 @@ import clsx from 'clsx';
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
     <span
+      // className={
+      //   status === 'pending'
+      //     ? 'bg-gray-100 text-gray-500'
+      //     : status === 'paid'
+      //     ? 'bg-green-500 text-white'
+      //     : 'inline-flex items-center rounded-full px-2 py-1 text-xs'
+      // }
+
       className={clsx(
         'inline-flex items-center rounded-full px-2 py-1 text-xs',
         {
