@@ -1,4 +1,5 @@
 'use client';
+// This is a Client Component, which means you can use event listeners and hooks.
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { useSearchParams } from 'next/navigation';
